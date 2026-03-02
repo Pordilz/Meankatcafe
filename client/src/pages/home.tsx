@@ -4,6 +4,8 @@ import { Coffee, Cat, Heart, Instagram, Facebook, MapPin } from "lucide-react";
 import logoImg from "@assets/639470726_17865298347579929_990346486148551162_n_1772472004615.png";
 import treatsImg from "@assets/Screenshot_2026-03-02_191927_1772471998543.png";
 
+import _639470726_17865298347579929_990346486148551162_n from "@assets/639470726_17865298347579929_990346486148551162_n.png";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-sans overflow-x-hidden">
@@ -23,7 +25,6 @@ export default function Home() {
           </button>
         </div>
       </nav>
-
       {/* Hero Section */}
       <header className="pt-32 pb-20 px-4 relative overflow-hidden flex flex-col items-center text-center">
         {/* Decorative background blobs */}
@@ -55,7 +56,6 @@ export default function Home() {
           </div>
         </motion.div>
       </header>
-
       {/* About Highlights */}
       <section id="about" className="py-16 bg-white/50">
         <div className="container mx-auto px-4">
@@ -84,7 +84,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Recreated Menu Section */}
       <section id="menu" className="py-20 px-4 relative">
         <div className="container mx-auto max-w-5xl">
@@ -223,7 +222,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Specialty Treats Highlight */}
       <section className="py-20 bg-primary/10">
         <div className="container mx-auto px-4">
@@ -266,12 +264,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer id="visit" className="bg-foreground text-white py-12">
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
           <div>
-            <img src={logoImg} alt="Meankat Cafe Logo" className="h-16 w-auto mb-6 brightness-0 invert" />
+            <img src={_639470726_17865298347579929_990346486148551162_n} alt="Meankat Cafe Logo" className="h-16 w-auto mb-6 brightness-0 invert" />
             <p className="text-white/80 mb-4 max-w-sm">
               Durban's favorite spot for great coffee, delicious treats, and playful rescues.
             </p>
