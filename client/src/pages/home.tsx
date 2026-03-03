@@ -151,6 +151,17 @@ export default function Home() {
               whileHover={{ scale: 1.05, rotateY: 5, rotateX: 5, boxShadow: "0px 10px 30px rgba(100, 70, 150, 0.15)" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
+              <div className="bg-primary/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Coffee className="text-primary w-10 h-10" />
+              </div>
+              <h3 className="text-2xl mb-4">Delicious Treats</h3>
+              <p className="text-foreground/80">From our rich Matilda Brownies to perfectly crafted Matcha lattes, we have something to satisfy every craving.</p>
+            </motion.div>
+            <motion.div
+              className="bg-background rounded-3xl p-8 text-center shadow-sm border border-primary/10 transition-colors"
+              whileHover={{ scale: 1.05, rotateY: 5, rotateX: 5, boxShadow: "0px 10px 30px rgba(100, 70, 150, 0.15)" }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
               <div className="bg-secondary/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Cat className="text-secondary-foreground w-10 h-10" />
               </div>
