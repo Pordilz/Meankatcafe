@@ -322,9 +322,9 @@ export default function Home() {
       <section className="py-20 bg-primary/10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2">
-              <h2 className="text-4xl md:text-5xl mb-6 text-primary drop-shadow-sm">Meankat Cafe Treats</h2>
-              <p className="text-lg mb-8 text-foreground/80">Partnering with <span className="font-display text-secondary font-bold text-xl px-2 py-1 bg-white rounded-lg shadow-sm rotate-2 inline-block">Butter Milk</span> to bring you the most decadent, mouth-watering bakes in Durban.</p>
+            <div className="w-full max-w-2xl mx-auto">
+              <h2 className="text-4xl md:text-5xl mb-6 text-primary drop-shadow-sm text-center">Meankat Cafe Treats</h2>
+              <p className="text-lg mb-8 text-foreground/80 text-center">Partnering with <span className="font-display text-secondary font-bold text-xl px-2 py-1 bg-white rounded-lg shadow-sm rotate-2 inline-block">Butter Milk</span> to bring you the most decadent, mouth-watering bakes in Durban.</p>
 
               <div className="space-y-6">
                 <TreatItem
@@ -344,40 +344,6 @@ export default function Home() {
                   desc="NUTTY BROWN BUTTER MEETS TENDER ALMOND CAKE, MOIST, FRAGRANT, AND TOPPED WITH A DELICATE CRUNCH FOR PURE COMFORT IN EVERY SLICE."
                 />
               </div>
-            </div>
-            <div className="lg:w-1/2 relative bg-white rounded-3xl p-8 shadow-xl border-4 border-primary/20">
-              {/* Replaced treats image with hardcoded content from the image */}
-              <h3 className="text-3xl font-display text-secondary mb-6 text-center border-b-2 border-secondary/20 pb-4">Our Decadent Treats</h3>
-              <div className="space-y-6">
-                <div>
-                  <h4 className="text-xl font-bold text-primary mb-1">Pistachio Cookie <span className="text-foreground/60 text-base font-normal ml-2">R65</span></h4>
-                  <p className="text-sm text-foreground/80 italic">A soft gooey cookie loaded with white chocolate chips, stuffed with a rich pistachio cream centre and topped with crushed pistachios.</p>
-                </div>
-
-                <div>
-                  <h4 className="text-xl font-bold text-primary mb-1">Rolo Cookie <span className="text-foreground/60 text-base font-normal ml-2">R55</span></h4>
-                  <p className="text-sm text-foreground/80 italic">A golden buttery cookie loaded with chocolate chips and stuffed with a caramel-filled Rolo that melts into a warm, gooey centre.</p>
-                </div>
-
-                <div>
-                  <h4 className="text-xl font-bold text-primary mb-1">Lotus Biscoff Cookie <span className="text-foreground/60 text-base font-normal ml-2">R60</span></h4>
-                  <p className="text-sm text-foreground/80 italic">A soft, spiced cookie filled with sweet white chocolate chips, stuffed with smooth Biscoff spread and topped with a Biscoff biscuit crumb.</p>
-                </div>
-
-                <div>
-                  <h4 className="text-xl font-bold text-primary mb-1">S'mores Cookie <span className="text-foreground/60 text-base font-normal ml-2">R55</span></h4>
-                  <p className="text-sm text-foreground/80 italic">A warm, gooey chocolate chip cookie stuffed with melted marshmallow and chunks of Hersheys chocolate, bringing the classic campfire treat to every bite.</p>
-                </div>
-
-                <div>
-                  <h4 className="text-xl font-bold text-primary mb-1">Red Velvet Cookie <span className="text-foreground/60 text-base font-normal ml-2">R60</span></h4>
-                  <p className="text-sm text-foreground/80 italic">A soft, vibrant red chocolate cookie packed with white chocolate chips, offering a rich, velvety texture and a sweet, creamy finish.</p>
-                </div>
-              </div>
-
-              {/* Decorative elements behind the card */}
-              <div className="absolute -top-10 -right-10 w-40 h-40 bg-secondary rounded-full opacity-30 blur-2xl -z-10"></div>
-              <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-primary rounded-full opacity-20 blur-2xl -z-10"></div>
             </div>
           </div>
         </div>
