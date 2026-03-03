@@ -87,7 +87,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1, duration: 0.6 }}
             >
-              Enjoy decadent treats while spending time with our adorable rescued friends in Durban.
+              Enjoy decadent treats while spending time with our adorable friends in Durban.
             </motion.p>
 
             <motion.div
