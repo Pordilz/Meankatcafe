@@ -6,10 +6,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 
+import Gallery from "@/pages/gallery";
+
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home}/>
+      <Route path="/" component={Home} />
+      <Route path="/gallery" component={Gallery} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
